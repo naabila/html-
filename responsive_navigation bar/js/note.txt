@@ -1,0 +1,37 @@
+=============== Mobile menu======================
+1.FONT:
+
+ ionicon.io=>icon copy==>
+nav jekhane ses hoise</nav> er por, sekhane div er vitre icon code pate kori(div and icon code duitatei class dei)+ close icon o div er vitore pase kori with same class as menu code=> iconicon.io==>usage==>installation(copy js code)
+
+2.
+Style mobile menu icon + close icon
+3. close icon er parent div class+ j name attribute ache take dhore display none kore dei
+example:
+.mobile-nav-button[name="close-outline"]{
+    display: none;
+}
+
+3. Hide desktp menu show hamberger icon==
+==============================================
+@media(max-width: 62em){
+    .mobile-nav-button{
+        display: block;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
+4. mobile menu bg + styling==
+==============================================
+https://www.youtube.com/watch?v=tVgnhxb-ScE&ab_channel=ThapaTechnical
+
+ei tutorial er 25min theke dekha start
+
+background+link positioning use kore screen er 
+dan dike pathay dei : 33min
+
+5.adding active class=============================
+=============================================
