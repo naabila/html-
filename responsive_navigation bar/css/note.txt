@@ -1,0 +1,27 @@
+1)
+a... dui icon cross,bar icon display none kori.
+b...  cross icon display none kori
+
+tahole mobile version a bar visible kore dibo and tokhon 
+cross hide[desktop a] korar karone cross mobile version a dekhabe na untill 
+ami show kori.
+2.) mobile nav design er somoy nav tag a display none korbo na
+ otherwie animation kj korbe na. 
+ opcity 0 + visibility: hidden + cuersor-event:none; koredibo
+
+
+ //========== Logic ================
+ ==========================================
+ active class navbar a present thake 
+ navbar show hobe otherwise hide thakbe+ 
+ bar icon hide hoye cross icon show hobe
+
+
+
+.mobile-navbar-btn{
+    display: none;
+    cursor: pointer;
+}
+.mobile-nav-icon[name="close-outline"]{
+display: none;
+}
